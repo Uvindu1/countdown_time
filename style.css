@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./mount.jpg);
+    background-size: cover;/*linc karapu imade eka page eke size ekata hedenna*/
+    background-position: center center;/*4to eka horisantaliy saha wartikali medata aii*/
+    min-height: 100vh;
+    display: flex;/*meka procition wala thiyana ewath samaga patalawaganna epa... 'display: fixe' dunnama eliment tika DIGA ATHATA.EKA ROW EKAK WAGEE EKA PELATA HEDEE vidiyata pela gesweee */
+    flex-direction: column;/*MEMAGIN EYA COLOM EKAKA WAGE EKAKATA PASSE EKAK PAHALATA THIBENA LESA SEDEE*/
+    font-family: 'Poppins',sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
